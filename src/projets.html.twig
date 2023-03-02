@@ -1,0 +1,20 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+    Mes projets
+{% endblock %}
+
+{% block content %}
+  
+  {% include "components/cards/project.html.twig" with {
+    title:"Mon portfolio",
+    description:"Ceci est une description"
+   } %}
+ 
+ {% include "components/cards/project.html.twig" with {
+    title:"Mon portfolio",
+    description:"Ceci est une description"
+   } %}
+ 
+{% endblock %}
+

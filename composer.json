@@ -1,0 +1,17 @@
+{
+    "name": "mohamed/portfolio",
+    "autoload": {
+        "psr-4": {
+            "Mohamed\\Portfolio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed",
+            "email": "mbrahimi93@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.5"
+    }
+}
